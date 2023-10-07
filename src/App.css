@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
-.Menu {
+.Menu, .Quiz, .EndScreen {
   width: 500px;
   height: 500px;
   border-radius: 10px;
@@ -17,7 +18,7 @@
   flex-direction: column;
 }
 
-.Menu button {
+.Menu button, .Quiz button, .EndScreen button {
   width: 300px;
   height: 50px;
   margin: 5px;
@@ -25,4 +26,16 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.Menu, .Quiz, .EndScreen {
+  color: white;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
